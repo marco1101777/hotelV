@@ -1,0 +1,181 @@
+:root{
+	--fondohover:#E2DEE7;
+	--alfondo:#C1BDC7;
+	--ver: 2px solid purple ;
+	--main: black;
+  --buttonback:#7f9bdf;
+}
+*{
+	font-family: arial;
+}
+body{
+  height:1000px;
+}
+.varN{
+	display: flex;
+	justify-content: space-between;
+	background: lightgray;
+	height: 35px;
+  border
+}
+/*opc*/
+.volver{
+  	display: flex;
+	width: 10%;
+	background:#84dce3;
+	cursor: pointer;
+  border-bottom:var(--ver);
+}
+.volver:hover{
+  background:#3aada8;
+}
+.opcRegistro{
+	display: flex;
+	width: 20%;
+	background:var(--alfondo);
+	cursor: pointer;
+}
+.opcRegistro:hover{
+	background: var(--fondohover) !important;
+}
+.opcEliminar{
+	display: flex;
+	width: 20%;
+	background:var(--alfondo);
+	cursor: pointer;
+}
+
+.opcEliminar:hover{
+	background: var(--fondohover) !important;
+}
+.opcActualizar{
+	display: flex;
+	width: 20%;
+	background:var(--alfondo);
+	cursor: pointer;
+}
+.opcActualizar:hover{
+	background: var(--fondohover) !important;
+}
+.opcConsulta{
+	display: flex;
+	width: 20%;
+	background:var(--alfondo);
+	cursor: pointer;
+}
+.opcConsulta:hover{
+	background: var(--fondohover) !important;
+}
+.opcReporte{
+	display: flex;
+	width: 20%;
+	background: var(--alfondo);
+	cursor: pointer;
+}
+.opcReporte:hover{
+	background: var(--fondohover) !important;
+}
+/*opc*/
+.icon{
+	
+	width: 20%;
+	height: 100%;
+}
+.icon img{
+  width:100%;
+  height:100%;
+  filter: brightness(1.1);
+	mix-blend-mode: multiply;
+}
+.registrar{
+	display: block;
+	width: 100%;
+  height:90%;
+	border-left:var(--ver);
+	border-right:var(--ver);
+	border-bottom:var(--ver);
+	text-align: center;
+}
+::placeholder{
+  font-size:12px;
+  padding-left:10px; 
+}
+input[type="submit"]{
+  color :red; 
+}
+input{
+	height: 30px;
+	width: 30%;
+  border:2px solid black;
+  margin-bottom:10px;
+}
+
+.titulo {
+	font-size: 40px;
+}
+.eliminar{
+	display: block;
+	border-left:var(--ver);
+  border-right:var(--ver);
+  border-bottom:var(--ver);
+  text-align: center;
+}
+.Actualizar{
+	display: block;
+	border-left:var(--ver);
+border-right:var(--ver);
+border-bottom:var(--ver);
+  text-align: center;
+}
+.consulta{
+	display: block;
+	border-left:var(--ver);
+border-right:var(--ver);
+border-bottom:var(--ver);
+  text-align: center;
+}
+.reporte{
+	text-align: center;
+	display: block;
+	border-left:var(--ver);
+	border-right:var(--ver);
+	border-bottom:var(--ver);
+  text-align: center;
+}
+
+textarea{
+  height: 30px;
+	width: 30%;
+  border:2px solid black;
+}
+
+#tabla{
+	color:var(--main);   
+}
+#first{
+  background:#8dd6ad;
+}
+#tabla tr:hover{
+  background:#9fc7e5;
+  border-left-color:black;
+}
+#enviar{
+  color: white; 
+  height:35px;
+  width:100px;
+  background:var(--buttonback);
+  border:3px solid #12329f;
+}
+#enviar:hover{
+  color:black;
+}
+#cancelar{
+  color: white; 
+  height:35px;
+  width:90px;
+  background:var(--buttonback);
+  border:3px solid #12329f;
+}
+#cancelar:hover{
+  color:black ;
+}
